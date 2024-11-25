@@ -1,0 +1,66 @@
+:root{
+
+    --base:1200; /* variable */
+    --tbase:calc(var(--base) * 1px); /* variable */
+    --tcolumna:calc(var(--tbase) / 12); /* variable */
+}
+
+
+
+*{/*Esto siempre */
+    box-sizing: border-box; /*Todos los elementos de la pagina van a tener su tamaño en cuenta*/
+}
+
+.wrapper{
+    width: var(--tbase);
+    margin: 0 auto; /*Centra el contenido , arriba y abajo pegados y en los lados separadas*/
+}
+
+.row{
+
+    clear: both; /*Limpiar los flotados, los elementos que estan flotando esto hace qeu se alineen en una fila*/ 
+}
+.col{
+    float: left; /*Hace que los elementos se alineen en una fila*/
+    width: var(--tcolumna); /*Ancho de la columna*/
+    border: 1px solid black;
+
+}
+.col.span2{
+    width: calc(var(--tcolumna) * 2); /*Ancho de la columna*/
+}
+.col.span3{
+    width: calc(var(--tcolumna) * 3); 
+
+}
+.col.span4{
+    width: calc(var(--tcolumna) * 4);
+
+    
+}.col.span5{
+    width: calc(var(--tcolumna) * 5);
+
+    
+}.col.span6{
+    width: calc(var(--tcolumna) * 6);
+    
+}.col.span7{
+    width: calc(var(--tcolumna) * 7);
+
+}.col.span8{
+    width: calc(var(--tcolumna) * 8);
+
+}.col.span9{
+    width: calc(var(--tcolumna) * 9);
+
+    
+}.col.span10{
+    width: calc(var(--tcolumna) * 10);
+
+}.col.span11{
+    width: calc(var(--tcolumna) * 11);
+
+}.col.span12{
+    width: calc(var(--tcolumna) * 12);
+
+}

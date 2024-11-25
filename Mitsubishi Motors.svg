@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg283"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="Mitsubishi Motors.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview285"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="0.74284647"
+     inkscape:cx="305.58131"
+     inkscape:cy="538.46927"
+     inkscape:window-width="1919"
+     inkscape:window-height="1013"
+     inkscape:window-x="1"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="104.92073,171.8601"
+       orientation="0,-1"
+       id="guide4272"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="76.643348,134.02962"
+       orientation="0,-1"
+       id="guide4274"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="133.36541,134.15557"
+       orientation="0,-1"
+       id="guide4276"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="104.98326,255.50797"
+       orientation="0,-1"
+       id="guide4278"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="84.000039,213.50795"
+       orientation="0,-1"
+       id="guide4280"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="29.635199,134.02962"
+       orientation="0,-1"
+       id="guide4282"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs280">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 148.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="210 : 148.5 : 1"
+       inkscape:persp3d-origin="105 : 99 : 1"
+       id="perspective507" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1747"
+       style="fill:#ff0000;stroke-width:0.269187"
+       d="M 104.98326 41.492041 L 84.000041 83.492061 L 104.92073 125.49208 L 126.00006 83.474491 L 104.98326 41.492041 z " />
+    <path
+       id="path1747-2"
+       style="fill:#ff0000;stroke-width:0.269187"
+       d="M 104.92073,125.49208 57.971,125.3493 29.636015,162.84443 76.64335,162.97038 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="path1747-2-7"
+       style="fill:#ff0000;stroke-width:0.269187"
+       d="m 104.92073,125.49208 28.44468,37.35235 46.92131,0 -28.41805,-37.70453 z"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:15.875px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';opacity:0.6;fill:#ff0000;stroke-width:0.264999;stroke-dasharray:none"
+       x="36.803677"
+       y="190.58128"
+       id="text4338"><tspan
+         sodipodi:role="line"
+         id="tspan4336"
+         style="stroke-width:0.265"
+         x="36.803677"
+         y="190.58128">Mitsubishi Motors</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.265"
+         x="36.803677"
+         y="210.42503"
+         id="tspan4390" /></text>
+  </g>
+</svg>
