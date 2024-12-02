@@ -1,0 +1,292 @@
+:root {
+  --base: 980; /* variable */
+  --tbase: calc(var(--base) * 1px); /* variable */
+  --tcolumna: calc(var(--base) / 12); /* variable */
+  --pcolumna: calc(var(--tcolumna) / var(--base) * 100%);
+}
+
+* {
+  /*Esto siempre */
+  box-sizing: border-box; /*Todos los elementos de la pagina van a tener su tamaño en cuenta*/
+}
+
+.wrapper {
+  width: 100%;
+  max-width: var(--tbase);
+  margin: 0 auto; /*Centra el contenido , arriba y abajo pegados y en los lados separadas*/
+}
+
+.row {
+  clear: both; /*Limpiar los flotados, los elementos que estan flotando esto hace qeu se alineen en una fila*/
+}
+.col-1 {
+  float: left; /*Hace que los elementos se alineen en una fila*/
+  width: var(--pcolumna); /*Ancho de la columna*/
+  border: 1px solid black;
+}
+.col-2 {
+  float: left;
+  width: calc(var(--pcolumna) * 2); /*Ancho de la columna*/
+}
+.col-3 {
+  float: left;
+
+  width: calc(var(--pcolumna) * 3);
+}
+.col-4 {
+  float: left;
+  width: calc(var(--pcolumna) * 4);
+}
+.col-5 {
+  float: left;
+  width: calc(var(--pcolumna) * 5);
+}
+.col-6 {
+  float: left;
+  width: calc(var(--pcolumna) * 6);
+}
+.col-7 {
+  float: left;
+  width: calc(var(--pcolumna) * 7);
+}
+.col-8 {
+  float: left;
+  width: calc(var(--pcolumna) * 8);
+}
+.col-9 {
+  float: left;
+  width: calc(var(--pcolumna) * 9);
+}
+.col-10 {
+  float: left;
+  width: calc(var(--pcolumna) * 10);
+}
+.col-11 {
+  float: left;
+  width: calc(var(--pcolumna) * 11);
+}
+.col-12 {
+  float: left;
+  width: calc(var(--pcolumna) * 12);
+}
+ml-1 {
+  margin-left: var(--pcolumna);
+}
+ml-2 {
+  margin-left: calc(var(--pcolumna) * 2);
+}
+ml-3 {
+  margin-left: calc(var(--pcolumna) * 3);
+}
+ml-4 {
+  margin-left: calc(var(--pcolumna) * 4);
+}
+ml-5 {
+  margin-left: calc(var(--pcolumna) * 5);
+}
+
+ml-6 {
+  margin-left: calc(var(--pcolumna) * 6);
+}
+
+ml-7 {
+  margin-left: calc(var(--pcolumna) * 7);
+}
+
+ml-8 {
+  margin-left: calc(var(--pcolumna) * 8);
+}
+
+ml-9 {
+  margin-left: calc(var(--pcolumna) * 9);
+}
+
+ml-10 {
+  margin-left: calc(var(--pcolumna) * 10);
+}
+
+ml-11 {
+  margin-left: calc(var(--pcolumna) * 11);
+}
+@media screen and (min-width: 768px) {
+    .col-sm-1 {
+        float: left; /*Hace que los elementos se alineen en una fila*/
+        width: var(--pcolumna); /*Ancho de la columna*/
+        border: 1px solid black;
+      }
+      .col-sm-2 {
+        float: left;
+        width: calc(var(--pcolumna) * 2); /*Ancho de la columna*/
+      }
+      .col-sm-3 {
+        float: left;
+      
+        width: calc(var(--pcolumna) * 3);
+      }
+      .col-sm-4 {
+        float: left;
+        width: calc(var(--pcolumna) * 4);
+      }
+      .col-sm-5 {
+        float: left;
+        width: calc(var(--pcolumna) * 5);
+      }
+      .col-sm-6 {
+        float: left;
+        width: calc(var(--pcolumna) * 6);
+      }
+      .col-sm-7 {
+        float: left;
+        width: calc(var(--pcolumna) * 7);
+      }
+      .col-sm-8 {
+        float: left;
+        width: calc(var(--pcolumna) * 8);
+      }
+      .col-sm-9 {
+        float: left;
+        width: calc(var(--pcolumna) * 9);
+      }
+      .col-sm-10 {
+        float: left;
+        width: calc(var(--pcolumna) * 10);
+      }
+      .col-sm-11 {
+        float: left;
+        width: calc(var(--pcolumna) * 11);
+      }
+      .col-sm-12 {
+        float: left;
+        width: calc(var(--pcolumna) * 12);
+      }
+      ml-sm-1 {
+        margin-left: var(--pcolumna);
+      }
+      ml-sm-2 {
+        margin-left: calc(var(--pcolumna) * 2);
+      }
+      ml-sm-3 {
+        margin-left: calc(var(--pcolumna) * 3);
+      }
+      ml-sm-4 {
+        margin-left: calc(var(--pcolumna) * 4);
+      }
+      ml-sm-5 {
+        margin-left: calc(var(--pcolumna) * 5);
+      }
+      
+      ml-sm-6 {
+        margin-left: calc(var(--pcolumna) * 6);
+      }
+      
+      ml-sm-7 {
+        margin-left: calc(var(--pcolumna) * 7);
+      }
+      
+      ml-sm-8 {
+        margin-left: calc(var(--pcolumna) * 8);
+      }
+      
+      ml-sm-9 {
+        margin-left: calc(var(--pcolumna) * 9);
+      }
+      
+      ml-sm-10 {
+        margin-left: calc(var(--pcolumna) * 10);
+      }
+      
+      ml-sm-11 {
+        margin-left: calc(var(--pcolumna) * 11);
+      }
+}
+@media screen and (min-width: 992px) {
+    .col-md-1 {
+        float: left; /*Hace que los elementos se alineen en una fila*/
+        width: var(--pcolumna); /*Ancho de la columna*/
+        border: 1px solid black;
+      }
+      .col-md-2 {
+        float: left;
+        width: calc(var(--pcolumna) * 2); /*Ancho de la columna*/
+      }
+      .col-md-3 {
+        float: left;
+      
+        width: calc(var(--pcolumna) * 3);
+      }
+      .col-md-4 {
+        float: left;
+        width: calc(var(--pcolumna) * 4);
+      }
+      .col-md-5 {
+        float: left;
+        width: calc(var(--pcolumna) * 5);
+      }
+      .col-md-6 {
+        float: left;
+        width: calc(var(--pcolumna) * 6);
+      }
+      .col-md-7 {
+        float: left;
+        width: calc(var(--pcolumna) * 7);
+      }
+      .col-md-8 {
+        float: left;
+        width: calc(var(--pcolumna) * 8);
+      }
+      .col-md-9 {
+        float: left;
+        width: calc(var(--pcolumna) * 9);
+      }
+      .col-md-10 {
+        float: left;
+        width: calc(var(--pcolumna) * 10);
+      }
+      .col-md-11 {
+        float: left;
+        width: calc(var(--pcolumna) * 11);
+      }
+      .col-md-12 {
+        float: left;
+        width: calc(var(--pcolumna) * 12);
+      }
+      ml-md-1 {
+        margin-left: var(--pcolumna);
+      }
+      ml-md-2 {
+        margin-left: calc(var(--pcolumna) * 2);
+      }
+      ml-md-3 {
+        margin-left: calc(var(--pcolumna) * 3);
+      }
+      ml-md-4 {
+        margin-left: calc(var(--pcolumna) * 4);
+      }
+      ml-md-5 {
+        margin-left: calc(var(--pcolumna) * 5);
+      }
+      
+      ml-md-6 {
+        margin-left: calc(var(--pcolumna) * 6);
+      }
+      
+      ml-md-7 {
+        margin-left: calc(var(--pcolumna) * 7);
+      }
+      
+      ml-md-8 {
+        margin-left: calc(var(--pcolumna) * 8);
+      }
+      
+      ml-md-9 {
+        margin-left: calc(var(--pcolumna) * 9);
+      }
+      
+      ml-md-10 {
+        margin-left: calc(var(--pcolumna) * 10);
+      }
+      
+      ml-md-11 {
+        margin-left: calc(var(--pcolumna) * 11);
+      }
+}
