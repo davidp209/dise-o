@@ -33,7 +33,83 @@ ul {
   .foto{
     width: 100%;
   }
-  .subtitulo{
+  .subtitulo{ 
     width: 90%;
+    margin: 5%;
     
+  }
+  .cabecera{
+   background-color: cadetblue;
+  }
+  .logo{
+    width: 80%;
+    margin: 10%;
+  }
+  .menu{
+   background-color: rgb(67, 114, 116);
+   color: yellow;
+   text-align: center;
+  }
+  .elemento:hover{
+    background-color: yellow;
+    color:  rgb(67, 114, 116);
+    font-weight: bold;
+  }
+
+
+  .section{
+    text-align: center;
+  }
+  .descripcion{
+    width: 80%;
+    margin: 10%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    text-align: center;
+  }
+.fotoproducto{
+
+  width: 80%;
+  margin: 10%;
+  margin-bottom: 0%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 50px red;
+  border: 3px solid red;
+}
+  .fondo1{
+    background-color: rgb(67, 114, 116);
+    color: yellow;
+  }
+
+  .footer{
+    background-color: rgb(67, 114, 116);
+    color: yellow;
+  }
+.mapa{
+  width: 100%;
+}
+.contacto {
+
+  width: 80%;
+  margin: 2% 10%;
+
+
+
+}
+
+  @media screen and (min-width: 768px) {
+    .foto{
+      width: 70%;
+      margin: 15%;
+    }
+    .mapa{
+      width: 90%;
+      margin: 5%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .foto{
+      width: 100%;
+      margin: 0%;
+    }
   }

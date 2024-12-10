@@ -4,7 +4,9 @@
   --tcolumna: calc(var(--base) / 12); /* variable */
   --pcolumna: calc(var(--tcolumna) / var(--base) * 100%);
 }
-
+.foto{
+  width: 100%;
+}
 * {
   /*Esto siempre */
   box-sizing: border-box; /*Todos los elementos de la pagina van a tener su tamaño en cuenta*/
@@ -108,6 +110,16 @@ ml-10 {
 ml-11 {
   margin-left: calc(var(--pcolumna) * 11);
 }
+
+.ver{
+  display: block;
+}
+.nover{
+  display: none;
+}
+
+
+
 @media screen and (min-width: 768px) {
     .col-sm-1 {
         float: left; /*Hace que los elementos se alineen en una fila*/
@@ -198,6 +210,13 @@ ml-11 {
       ml-sm-11 {
         margin-left: calc(var(--pcolumna) * 11);
       }
+      .ver-sm{
+        display: block;
+      }
+      .nover-sm{
+        display: none;
+      }
+      
 }
 @media screen and (min-width: 992px) {
     .col-md-1 {
@@ -289,4 +308,11 @@ ml-11 {
       ml-md-11 {
         margin-left: calc(var(--pcolumna) * 11);
       }
+      .ver-md{
+        display: block;
+      }
+      .nover-md{
+        display: none;
+      }
 }
+
