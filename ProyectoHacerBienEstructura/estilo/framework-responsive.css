@@ -4,9 +4,7 @@
   --tcolumna: calc(var(--base) / 12); /* variable */
   --pcolumna: calc(var(--tcolumna) / var(--base) * 100%);
 }
-.foto{
-  width: 100%;
-}
+
 * {
   /*Esto siempre */
   box-sizing: border-box; /*Todos los elementos de la pagina van a tener su tamaño en cuenta*/

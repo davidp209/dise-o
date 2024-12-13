@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 ul {
     list-style-type: none;
     margin: 0;
@@ -41,21 +42,64 @@ ul {
   .cabecera{
    background-color: cadetblue;
   }
+
   .logo{
     width: 80%;
     margin: 10%;
   }
-  .menu{
-   background-color: rgb(67, 114, 116);
-   color: yellow;
+
+  .nombreLogo {
    text-align: center;
+   padding: 60% 0;
+   font-family: 'Pacifico', cursive; /* Asegúrate de importar esta fuente desde Google Fonts */
+   color: #ee9e11ff; /* Rojo navideño */
+   text-shadow: 2px 2px 4px #000000, 0 0 10px #ffffff, 0 0 20px #ff0000; /* Sombras para un efecto brillante */
+
   }
-  .elemento:hover{
-    background-color: yellow;
-    color:  rgb(67, 114, 116);
-    font-weight: bold;
+  .eslogan {
+    text-align: center;
+    padding: 60% 0;
+    font-family: 'Pacifico', cursive; 
+    color: #ff0000; 
+    text-shadow: 2px 2px 4px #000000, 0 0 10px #ffffff, 0 0 20px #ee9e11ff; 
+ 
+   }
+  
+
+
+  .menu{
+    color: #ee9e11ff; /* Color de los enlaces */
+   text-align: center;
+
+  }
+  .menu:hover{
+    color: #ee9e11ff; /* Color de los enlaces */
+  text-decoration: none; /* Sin subrayado */
+  transition: color 0.3s ease;
   }
 
+  .elemento{
+    text-align: center;
+    border: 1px solid cadetblue; /* Borde rojo */
+
+  }
+
+  .elemento:hover{
+    color: red; /* Color de los enlaces */
+  }
+
+  .tituloInfo{
+    font-family: 'Pacifico', cursive; /* Asegúrate de importar esta fuente desde Google Fonts */
+    color: #ee9e11ff; 
+    margin-left: 2%;
+    margin-top: 0%;
+
+  }
+  .textos{
+    margin-left: 2%;
+
+  }
+  
 
   .section{
     text-align: center;
@@ -73,8 +117,8 @@ ul {
   margin: 10%;
   margin-bottom: 0%;
   border-radius: 50%;
-  box-shadow: 1px 1px 50px red;
-  border: 3px solid red;
+  box-shadow: 10px 1px 25px red;
+  border: 2px solid #ee9e11ff;
 }
   .fondo1{
     background-color: rgb(67, 114, 116);
@@ -95,6 +139,9 @@ ul {
 
 
 
+}
+.foto{
+  width: 80%;
 }
 
   @media screen and (min-width: 768px) {
