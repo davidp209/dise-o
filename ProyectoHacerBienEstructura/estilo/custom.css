@@ -7,16 +7,17 @@ ul {
     background-color: #333;
   }
   
-  li {
+ul {
+
     float: left;
     border-right:1px solid #bbb;
   }
   
-  li:last-child {
+li:last-child {
     border-right: none;
   }
   
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -24,139 +25,189 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+li a:hover:not(.active) {
     background-color: #111;
   }
   
-  .active {
+.active {
     background-color: #04AA6D;
   }
-  .foto{
+.foto{
     width: 100%;
   }
-  .subtitulo{ 
+.subtitulo{ 
     width: 90%;
     margin: 5%;
     
   }
-  .cabecera{
+.cabecera{
    background-color: cadetblue;
   }
 
-  .logo{
-    width: 80%;
-    margin: 10%;
+.logo {
+    width: 50%;
+    margin: 0 auto; /* */
+    display: block; /*  */
   }
 
-  .nombreLogo {
-   text-align: center;
-   padding: 60% 0;
-   font-family: 'Pacifico', cursive; /* Asegúrate de importar esta fuente desde Google Fonts */
-   color: #ee9e11ff; /* Rojo navideño */
-   text-shadow: 2px 2px 4px #000000, 0 0 10px #ffffff, 0 0 20px #ff0000; /* Sombras para un efecto brillante */
-
-  }
-  .eslogan {
+.nombreLogo {
     text-align: center;
-    padding: 60% 0;
+    margin: 10% 0; 
     font-family: 'Pacifico', cursive; 
-    color: #ff0000; 
-    text-shadow: 2px 2px 4px #000000, 0 0 10px #ffffff, 0 0 20px #ee9e11ff; 
- 
-   }
+    color: #ee9e11ff; 
+    text-shadow: 2px 2px 4px #000000, 0 0 10px #ffffff, 0 0 20px #ff0000; 
+  }
+
+.eslogan {
+    text-align: center;
+    margin: 10% 0; 
+    font-family: 'Pacifico', cursive;
+    color: #ff0000;
+    text-shadow: 2px 2px 4px #000000, 0 0 10px #ffffff, 0 0 20px #ee9e11ff;
+  }
   
+.menu{
 
-
-  .menu{
-    color: #ee9e11ff; /* Color de los enlaces */
+    color: #ee9e11ff;
    text-align: center;
 
   }
-  .menu:hover{
-    color: #ee9e11ff; /* Color de los enlaces */
-  text-decoration: none; /* Sin subrayado */
+
+.menu:hover{
+
+    color: #ee9e11ff; 
+  text-decoration: none; 
   transition: color 0.3s ease;
-  }
+  
+}
 
-  .elemento{
+.elemento{
+
     text-align: center;
-    border: 1px solid cadetblue; /* Borde rojo */
+    border: 1px solid cadetblue; 
 
   }
+ 
+.elemento:hover{
 
-  .elemento:hover{
-    color: red; /* Color de los enlaces */
+    color: red;
+  
   }
 
-  .tituloInfo{
-    font-family: 'Pacifico', cursive; /* Asegúrate de importar esta fuente desde Google Fonts */
+.tituloInfo{
+  
+    font-family: 'Pacifico', cursive; 
     color: #ee9e11ff; 
     margin-left: 2%;
     margin-top: 0%;
 
   }
-  .textos{
+
+.textos{
+
     margin-left: 2%;
 
   }
   
+.section{
 
-  .section{
     text-align: center;
+    color:#ee9e11ff;
+
   }
-  .descripcion{
+
+.descripcion{
+
     width: 80%;
     margin: 10%;
     margin-bottom: 0%;
-    margin-top: 0%;
+    margin-top: 5%;
     text-align: center;
-  }
-.fotoproducto{
 
-  width: 80%;
-  margin: 10%;
-  margin-bottom: 0%;
-  border-radius: 50%;
-  box-shadow: 10px 1px 25px red;
-  border: 2px solid #ee9e11ff;
-}
-  .fondo1{
-    background-color: rgb(67, 114, 116);
-    color: yellow;
   }
 
-  .footer{
+.fotoproducto {
+
+    width: 80%;
+    margin: 10%;
+    margin-bottom: 0%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); 
+    border: 2px solid #ee9e11ff;
+    border-radius: 10px; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+
+  }
+  
+.fotoproducto:hover {
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.19); 
+    box-shadow: 10px 1px 25px red;
+    border: 2px solid #ee9e11ff;
+
+  }
+
+.fondo2{
+      
+      background-color: #ee9e11ff;
+      color: yellow;
+  }
+
+.fondo1{
+
+    background-color: cadetblue;
+    color: yellow;
+
+  }
+
+.footer{
+
     background-color: rgb(67, 114, 116);
     color: yellow;
+
   }
-.mapa{
-  width: 100%;
-}
+
+.mapa {
+
+    width: 30%;
+    height: 20%; 
+
+  }
+
 .contacto {
 
-  width: 80%;
-  margin: 2% 10%;
+    width: 80%;
+    margin: 2% 10%;
 
+  
+  }
 
-
-}
 .foto{
-  width: 80%;
-}
+
+    width: 80%;
+
+  }
 
   @media screen and (min-width: 768px) {
     .foto{
+
       width: 70%;
-      margin: 15%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+
     }
     .mapa{
+
       width: 90%;
       margin: 5%;
+
     }
   }
   @media screen and (min-width: 992px) {
-    .foto{
+    .foto{   
+
       width: 100%;
       margin: 0%;
+    
     }
+
   }
