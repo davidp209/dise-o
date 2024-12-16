@@ -1,4 +1,6 @@
+/*Importar estilos*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -46,9 +48,11 @@ li a:hover:not(.active) {
 
 .logo {
     width: 50%;
-    margin: 0 auto; /* */
-    display: block; /*  */
+    margin: 0 auto; 
+    display: block; 
   }
+
+  /* Estilos para el nombre del logo */
 
 .nombreLogo {
     text-align: center;
@@ -57,6 +61,8 @@ li a:hover:not(.active) {
     color: #ee9e11ff; 
     text-shadow: 2px 2px 4px #000000, 0 0 10px #ffffff, 0 0 20px #ff0000; 
   }
+
+  /* Estilos para el eslogan */
 
 .eslogan {
     text-align: center;
@@ -69,15 +75,15 @@ li a:hover:not(.active) {
 .menu{
 
     color: #ee9e11ff;
-   text-align: center;
+    text-align: center;
 
   }
 
 .menu:hover{
 
     color: #ee9e11ff; 
-  text-decoration: none; 
-  transition: color 0.3s ease;
+    text-decoration: none; 
+    transition: color 0.3s ease;
   
 }
 
@@ -113,6 +119,7 @@ li a:hover:not(.active) {
 
     text-align: center;
     color:#ee9e11ff;
+    font-size: 250%; /* Ajusta este valor según tus necesidades */
 
   }
 
@@ -126,10 +133,13 @@ li a:hover:not(.active) {
 
   }
 
+  /* Estilos para las imágenes de productos */
+
 .fotoproducto {
 
     width: 80%;
     margin: 10%;
+    height: 250px; 
     margin-bottom: 0%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); 
     border: 2px solid #ee9e11ff;
@@ -140,24 +150,25 @@ li a:hover:not(.active) {
   
 .fotoproducto:hover {
 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.19); 
     box-shadow: 10px 1px 25px red;
     border: 2px solid #ee9e11ff;
 
   }
 
+  /* Estilos para los fondos */
+
+
 .fondo2{
       
-      background-color: #ee9e11ff;
-      color: yellow;
-  }
+  background-color: #f0f0f0;
+}
 
-.fondo1{
+.fondo1 {
+  background-color: cadetblue;
+  color: #000000; /* Negro */
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5); /* Sombra de texto */
 
-    background-color: cadetblue;
-    color: yellow;
-
-  }
+}
 
 .footer{
 
@@ -193,6 +204,8 @@ li a:hover:not(.active) {
       width: 70%;
       margin-top: 5%;
       margin-bottom: 5%;
+      margin-left: 15%;
+
 
     }
     .mapa{
