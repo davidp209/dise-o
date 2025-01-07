@@ -1,0 +1,30 @@
+.verde{
+    
+    
+    border: 1px solid black;
+    background-color: greenyellow;
+    min-height: 50px;
+    
+
+}
+.rojo{
+    border: 1px solid black;
+    background-color: red;
+    min-height: 50px;
+}
+.rosa{
+    border: 1px solid black;
+    background-color: darkmagenta;
+    min-height: 50px;
+
+}
+.carne{
+    border: 1px solid black;
+    background-color:darksalmon;
+    min-height: 50px;
+}
+.azul{
+    border: 1px solid black;
+    background-color: blue;
+    min-height: 50px;
+}
