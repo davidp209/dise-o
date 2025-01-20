@@ -1,0 +1,33 @@
+.col-12{
+    border: 1px solid black;
+}
+.navbar {
+
+    background-color:lightpink ;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: black;
+}
+.navbar-nav{
+    text-align: center;
+}
+
+.sin{
+    margin: 0;
+    padding: 0;
+}
+.personal{
+    width: 50%; 
+   
+}
+@media screen and (max-width: 576px) {
+    .personal{
+        width: 60%;
+        margin: 20% 10% 20% 10%
+        
+    }
+    
+}
